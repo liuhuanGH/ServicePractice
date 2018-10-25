@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -73,6 +74,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         cancelButton.setText("取消下载");
         cancelButton.setId(R.id.cancelDownload);
         linearLayout.addView(cancelButton);
+
     }
 
     @Override
