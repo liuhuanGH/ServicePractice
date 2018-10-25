@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="startDownload" type="id" />
+    <item name="pauseDownload" type="id"/>
+    <item name="cancelDownload" type="id"/>
+</resources>
