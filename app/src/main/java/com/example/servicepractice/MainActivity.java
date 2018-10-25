@@ -57,17 +57,17 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     private void initView() {
-        startButton = new Button(this);
-        startButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        startButton.setText("开始下载");
-        startButton.setId(R.id.startDownload);
-        linearLayout.addView(startButton);
-
-        pauseButton = new Button(this);
-        pauseButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        pauseButton.setText("暂停下载");
-        pauseButton.setId(R.id.pauseDownload);
-        linearLayout.addView(pauseButton);
+//        startButton = new Button(this);
+//        startButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+//        startButton.setText("开始下载");
+//        startButton.setId(R.id.startDownload);
+//        linearLayout.addView(startButton);
+//
+//        pauseButton = new Button(this);
+//        pauseButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+//        pauseButton.setText("暂停下载");
+//        pauseButton.setId(R.id.pauseDownload);
+//        linearLayout.addView(pauseButton);
 
         cancelButton = new Button(this);
         cancelButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
