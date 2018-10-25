@@ -75,7 +75,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
         cancelButton.setId(R.id.cancelDownload);
         linearLayout.addView(cancelButton);
 
-        Log.d("TAG", "initView");//为了测试添加这句，表示自己修改了代码
     }
 
     @Override
