@@ -59,16 +59,16 @@ public class DownloadTask extends AsyncTask {
 
     @Override
     protected Object doInBackground(Object[] objects) {
-//        InputStream is = null;
-//        RandomAccessFile savedFile = null;
-//        File file = null;
-//        long downloadLength = 0;
-//        String downloadURL =(String) objects[0];
-//        String fileName = downloadURL.substring(downloadURL.lastIndexOf("/"));
-//        String directory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getPath();
-//        file = new File(directory+fileName);
-//        if(file.exists()){
-//            downloadLength = file.length();
+        InputStream is = null;
+        RandomAccessFile savedFile = null;
+        File file = null;
+        long downloadLength = 0;
+        String downloadURL =(String) objects[0];
+        String fileName = downloadURL.substring(downloadURL.lastIndexOf("/"));
+        String directory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getPath();
+        file = new File(directory+fileName);
+        if(file.exists()){
+            downloadLength = file.length();
         }
         try {
             long contentLength = getConteneLength(downloadURL);
