@@ -57,11 +57,11 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     private void initView() {
-        startButton = new Button(this);
-        startButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        startButton.setText("开始下载");
-        startButton.setId(R.id.startDownload);
-        linearLayout.addView(startButton);
+//        startButton = new Button(this);
+//        startButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+//        startButton.setText("开始下载");
+//        startButton.setId(R.id.startDownload);
+//        linearLayout.addView(startButton);
 
         pauseButton = new Button(this);
         pauseButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
