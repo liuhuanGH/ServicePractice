@@ -57,6 +57,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     private void initView() {
+        Log.d("tag", "第一次提交代码");
+
         startButton = new Button(this);
         startButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         startButton.setText("开始下载");
