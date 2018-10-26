@@ -63,10 +63,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
         startButton.setId(R.id.startDownload);
         linearLayout.addView(startButton);
 
-//        Log.d("TAG", "第一次打印日志");
-
-        Log.d("TAG", "第二次打印日志");
-
 //        pauseButton = new Button(this);
 //        pauseButton.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 //        pauseButton.setText("暂停下载");
