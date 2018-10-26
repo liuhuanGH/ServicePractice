@@ -63,7 +63,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         startButton.setId(R.id.startDownload);
         linearLayout.addView(startButton);
 
-        Log.d("TAG", "第一次打印日志");
+//        Log.d("TAG", "第一次打印日志");
 
         Log.d("TAG", "第二次打印日志");
 
