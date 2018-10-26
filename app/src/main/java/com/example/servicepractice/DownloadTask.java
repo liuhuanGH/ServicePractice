@@ -69,7 +69,7 @@ public class DownloadTask extends AsyncTask {
 //        file = new File(directory+fileName);
 //        if(file.exists()){
 //            downloadLength = file.length();
-        }
+//        }
         try {
             long contentLength = getConteneLength(downloadURL);
             if(contentLength==0)
