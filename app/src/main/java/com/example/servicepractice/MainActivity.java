@@ -57,7 +57,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     private void initView() {
-        Log.d("tag", "第一次提交代码");
+//        Log.d("tag", "第一次提交代码");第三次提交修改了第一次提交的代码
         Log.d("tag", "第二次提交代码");
 
         startButton = new Button(this);
